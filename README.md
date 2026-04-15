@@ -17,6 +17,7 @@ Status:
 
 - implementation baseline available
 - v0.1 covers `propose` and conservative `apply` for Markdown workbench maintenance
+- first public repository release target: `v0.1.0`
 
 Primary design document:
 
@@ -270,6 +271,17 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish-to-github.ps1
 ```
 
 This script creates `origin` from local config and pushes the current branch unless `-SkipPush` is used.
+
+## Open Source
+
+- License: `MIT`
+- Contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Roadmap: [ROADMAP.md](./ROADMAP.md)
+
+If you are evaluating the project for the first time, start with this README and then read:
+
+1. `docs/2026-04-15-skill-overview.md`
+2. `docs/2026-04-14-v0.1-design.md`
 
 ## Structured Transcript Cues
 
