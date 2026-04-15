@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configuration and secrets
+config/local.toml
+config/*.local.toml
+.env
+.env.*
+
+# Runtime outputs
+runtime/
+.internal/
+*.log
+
+# Generated workbench backups
+.awr-backups/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

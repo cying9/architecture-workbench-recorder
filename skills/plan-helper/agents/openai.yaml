@@ -1,0 +1,7 @@
+interface:
+  display_name: "计划小助手"
+  short_description: "手动把讨论整理成 pre-plan 产物，供后续 plan-mode 或写计划使用"
+  default_prompt: "Use $plan-helper only when the user explicitly says 计划小助手 or clearly asks for a manual pre-plan checkpoint before plan-mode, writing-plans, or implementation."
+
+policy:
+  allow_implicit_invocation: false

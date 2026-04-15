@@ -1,0 +1,12 @@
+[project]
+name = "architecture-workbench-recorder"
+version = "0.1.0"
+description = "Local-first recorder for transcript-to-workbench proposal/apply workflows"
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.21.0",
+  "pydantic>=2.12.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["source_code"]

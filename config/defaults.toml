@@ -1,0 +1,13 @@
+[proposal]
+default_mode = "propose"
+readme_apply = false
+artifact_budget = 3
+manual_only = true
+
+[apply]
+backup_dir = ".awr-backups"
+default_apply_targets = ["decision-log.md", "open-questions.md", "thread-log.md", "glossary.md"]
+proposal_only_targets = ["README.md"]
+
+[paths]
+shared_preplan_root = "runtime\\preplan"

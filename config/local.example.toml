@@ -1,0 +1,18 @@
+[paths]
+# Recommended shared archive root for this machine.
+shared_preplan_root = "E:\\CodeHub\\_preplan"
+
+[skills]
+# Optional local Codex skills root for install or validation scripts.
+codex_skills_root = "C:\\Users\\<user>\\.codex\\skills"
+
+[github]
+# Recommended defaults for publishing this repository.
+owner = "<github-owner>"
+visibility = "private"
+
+[secrets]
+# Put machine-local secrets here when needed by future integrations.
+# openai_api_key = ""
+# anthropic_api_key = ""
+# hf_token = ""

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Architecture Workbench Discussion"
+  short_description: "Manual pre-plan checkpointing from discussion into planning-ready artifacts"
+  default_prompt: "Use $architecture-workbench-discussion only when the user explicitly asks to consolidate an architecture or product discussion into pre-plan artifacts before plan-mode, writing-plans, or implementation."
+
+policy:
+  allow_implicit_invocation: false

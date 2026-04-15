@@ -1,0 +1,6 @@
+[targets]
+readme = "README.md"
+glossary = "glossary.md"
+decision_log = "decision-log.md"
+open_questions = "open-questions.md"
+thread_log = "thread-log.md"
