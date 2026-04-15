@@ -256,6 +256,21 @@ python source_code/awr/cli.py apply --proposal runtime/preplan/checkpoints/demo/
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts\invoke-discussion-checkpoint.ps1 -Mode propose -Transcript examples\transcripts\sample-thread.md -Workbench examples\workbenches\sample-workbench -OutputName manual-demo
 ```
 
+## Publishing
+
+Recommended local publishing defaults live in `config/local.toml`:
+
+- `github.owner`
+- `github.visibility`
+
+After `gh auth login`, publish with:
+
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish-to-github.ps1
+```
+
+This script creates `origin` from local config and pushes the current branch unless `-SkipPush` is used.
+
 ## Structured Transcript Cues
 
 Supported today:
